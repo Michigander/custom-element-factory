@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    // "lib": ["dom"],
+    "moduleResolution": "node",
+    "module": "esnext",
+    "target": "esnext",
+    "strict": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "inlineSourceMap": true
+  }
+}

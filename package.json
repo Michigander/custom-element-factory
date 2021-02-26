@@ -1,0 +1,34 @@
+{
+  "name": "custom-element-factory",
+  "version": "1.0.0",
+  "description": "This is a project to solve the problem of creating a re-usable html tag.",
+  "main": "dist/custom-element-factory.cjs.js",
+  "module": "dist/custom-element-factory.esm.js",
+  "browser": "dist/custom-element-factory.umd.js",
+  "scripts": {
+    "build:watch": "tsc --watch",
+    "bundle:dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michigander/custom-element-factory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michigander/custom-element-factory/issues"
+  },
+  "homepage": "https://github.com/Michigander/custom-element-factory#readme",
+  "dependencies": {
+    "lit-html": "^1.3.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.1.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "@types/lodash": "^4.14.168",
+    "rollup": "^2.39.0",
+    "rollup-plugin-sourcemaps": "^0.6.3",
+    "typescript": "^4.1.5"
+  }
+}

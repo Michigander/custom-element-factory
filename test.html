@@ -1,0 +1,13 @@
+<html>
+  <head>
+    <script type="module">
+      import "./dist/custom-element-factory.umd.js";
+      import { html } from "./node_modules/lit-html/lit-html.js";
+      const myElement = () => (props = {}) => html`<slot></slot>`;
+      makeElement(myElement);
+    </script>
+  </head>
+  <body>
+    <my-element title="demo"></my-element>
+  </body>
+</html>
